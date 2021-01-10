@@ -16,7 +16,27 @@
   font-size: 16px;
   display: inline-block;
   vertical-align: middle;
-  padding: 20px;
+  padding: 10px;
+}
+
+.contents-arrow {
+  display: inline-block;
+  color: white;
+  font-size: 16px;
+  display: inline-block;
+  vertical-align: middle;
+  background-color: #ca9d0a;
+}
+
+.arrow01 {
+  display: inline-block;
+  margin-left: -10px;
+  width: 10px;
+  height: 10px;
+  border-top: solid 3px #ffffff;
+  border-right: solid 3px #ffffff;
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
 }
 
 .background {
@@ -28,8 +48,8 @@
 .application-form {
   background-color: white;
   border: 6px solid black;
-  border-radius: 10px;
-  width: 600px;
+  border-radius: 20px;
+  width: 700px;
   margin-top: 0px;
   margin-right: auto;
   margin-bottom: 2em;
