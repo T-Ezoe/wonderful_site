@@ -1,0 +1,129 @@
+.header {
+  width: 100%;
+  background: rgba(255, 255, 255, 0.9);
+  z-index: 9999;
+  position: fixed;
+  margin-top: 0px;
+  margin-right: auto;
+  margin-bottom: 2em;
+  margin-left: auto;
+  padding: 20px;
+  color: black;
+  text-align: center;
+}
+
+.contents {
+  font-size: 16px;
+  display: inline-block;
+  vertical-align: middle;
+  padding: 10px;
+}
+
+.contents-arrow {
+  display: inline-block;
+  color: white;
+  font-size: 16px;
+  display: inline-block;
+  vertical-align: middle;
+  background-color: #ca9d0a;
+}
+
+.arrow01 {
+  display: inline-block;
+  margin-left: -10px;
+  width: 10px;
+  height: 10px;
+  border-top: solid 3px #ffffff;
+  border-right: solid 3px #ffffff;
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+.background {
+  z-index: -1;
+  background-color: blue;
+  padding-top: 130px;
+}
+
+.application-form {
+  background-color: white;
+  border: 6px solid black;
+  border-radius: 20px;
+  width: 700px;
+  margin-top: 0px;
+  margin-right: auto;
+  margin-bottom: 2em;
+  margin-left: auto;
+  padding: 20px;
+  text-align: center;
+}
+
+.form1 {
+  font-size: 18px;
+  margin: 10;
+  line-height: 0;
+}
+
+.form2 {
+  margin-top: -5px;
+}
+
+.form3 {
+  font-size: 18px;
+}
+
+.form4 {
+  font-size: 20px;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(70%, transparent), color-stop(0%, #FFFF00));
+  background: linear-gradient(transparent 70%, #FFFF00 0%);
+  font-weight: bold;
+}
+
+.form5 {
+  color: white;
+  background-color: #338ee2;
+  width: 450px;
+  height: 50px;
+  border-radius: 5px;
+  margin-top: 20px;
+  margin-right: auto;
+  margin-bottom: 2em;
+  margin-left: auto;
+  line-height: 50px;
+}
+
+.figures {
+  text-align: center;
+  table-layout: fixed;
+  width: 850px;
+  color: white;
+}
+
+.figure {
+  width: 95%;
+}
+
+.lower-part {
+  background-color: black;
+  color: white;
+  width: auto;
+  margin-top: -50px;
+  margin-right: -130px;
+  margin-bottom: 2em;
+  margin-left: -130px;
+  padding: 20px;
+}
+
+.introduction {
+  width: 800px;
+  margin-top: 40px;
+  margin-right: auto;
+  margin-bottom: 2em;
+  margin-left: auto;
+  padding: 20px;
+}
+
+.wonderful-code {
+  text-align: center;
+}
+/*# sourceMappingURL=main.css.map */
