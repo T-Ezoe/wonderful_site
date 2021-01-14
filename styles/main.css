@@ -1,4 +1,5 @@
 .header {
+  display: inline-block;
   width: 100%;
   background: rgba(255, 255, 255, 0.9);
   z-index: 9999;
@@ -7,22 +8,34 @@
   margin-right: auto;
   margin-bottom: 2em;
   margin-left: auto;
-  padding: 20px;
   color: black;
   text-align: center;
 }
 
+.contents1 {
+  font-size: 18px;
+  height: 100px;
+  line-height: 100px;
+  display: inline-block;
+  vertical-align: middle;
+  margin-top: 8px;
+  padding: 10px;
+}
+
 .contents {
-  font-size: 16px;
+  font-size: 18px;
   display: inline-block;
   vertical-align: middle;
   padding: 10px;
+  height: 27px;
+  line-height: 27px;
 }
 
 .contents-arrow {
   display: inline-block;
   color: white;
-  font-size: 16px;
+  width: 180px;
+  font-size: 18px;
   display: inline-block;
   vertical-align: middle;
   background-color: #ca9d0a;
@@ -30,7 +43,7 @@
 
 .arrow01 {
   display: inline-block;
-  margin-left: -10px;
+  margin-left: -15px;
   width: 10px;
   height: 10px;
   border-top: solid 3px #ffffff;
@@ -39,23 +52,26 @@
   transform: rotate(45deg);
 }
 
-.background {
-  z-index: -1;
-  background-color: blue;
-  padding-top: 130px;
+.body {
+  background-image: url(../images/background.jpg);
+  display: block;
+}
+
+.outer-box {
+  display: block;
+  padding-top: 150px;
 }
 
 .application-form {
-  background-color: white;
+  display: block;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  max-width: 700px;
   border: 6px solid black;
   border-radius: 20px;
-  width: 700px;
-  margin-top: 0px;
-  margin-right: auto;
-  margin-bottom: 2em;
-  margin-left: auto;
-  padding: 20px;
-  text-align: center;
+  background-color: white;
 }
 
 .form1 {
@@ -69,11 +85,14 @@
 }
 
 .form3 {
-  font-size: 18px;
+  font-size: 22px;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 .form4 {
-  font-size: 20px;
+  margin-top: 20px;
+  font-size: 28px;
   background: -webkit-gradient(linear, left top, left bottom, color-stop(70%, transparent), color-stop(0%, #FFFF00));
   background: linear-gradient(transparent 70%, #FFFF00 0%);
   font-weight: bold;
@@ -92,15 +111,20 @@
   line-height: 50px;
 }
 
-.figures {
+.icons {
+  display: block;
   text-align: center;
-  table-layout: fixed;
-  width: 850px;
-  color: white;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 75%;
 }
 
 .figure {
-  width: 95%;
+  text-align: center;
+  display: inline-block;
+  width: 30%;
+  color: white;
 }
 
 .lower-part {
@@ -108,9 +132,9 @@
   color: white;
   width: auto;
   margin-top: -50px;
-  margin-right: -130px;
+  margin-right: auto;
   margin-bottom: 2em;
-  margin-left: -130px;
+  margin-left: auto;
   padding: 20px;
 }
 
